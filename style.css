@@ -26,7 +26,8 @@ body {
   border-style: groove;
   border-top: 0.2vw solid black;
   border-bottom: 0.2vw solid black;
-  background-color: #ec9e2ada;
+  background-color: #2a9becda;
+  border-radius: 2px;
 }
 
 
@@ -52,17 +53,17 @@ main {
 .buscadorPizza {
   display: flex;
   flex-direction: column;
-  font-size:xx-large;
-  min-width: 30vw;
+  font-size:large;
+  max-width: 80vw;
   margin-top: 1vh;
   margin-bottom: 2vh;
-  background-color: rgba(41, 166, 208, 0.826);
-  color: rgb(246, 246, 10);
+  background-color: rgb(41, 166, 208);
+  color: rgb(246, 42, 10);
   font-weight: bold;
   border: 2px;
   border-style: groove;
   border-color: black;
-
+  border-radius: 20px;
 }
 
 .buscadorPizza-button:active {
@@ -70,6 +71,7 @@ main {
   background-color: gray;
   color: white;
   font-family: serif;
+  border-radius: 20px;
 } 
 
 #pizzaBuscador{
@@ -79,19 +81,22 @@ min-width: 30vw;
 min-height: 5vh;
 color: black;
 font-style: normal;
-font-display: 16px;
+font-display: 12px;
 font-weight: bold;
+border-radius: 20px;
 }
 
 /* verificar a necessidade de usar ou não medidas relativas*/
 .buscar {
   text-align: center;
+  border-radius: 20px;
 }
 
 .botao {
   font-size: x-large;
   gap: 4px;
   padding: 4px;
+  border-radius: 20px;
 }
 
 .input{
@@ -100,6 +105,7 @@ font-weight: bold;
   height: 3vh;
   gap: 4px;
   padding: 4px;
+  border-radius: 20px;
 }
 
 
@@ -109,20 +115,36 @@ font-weight: bold;
   /* mexer nesse debaixo para ver posição das pizzas no site */
   flex-flow:column;
   gap: 4px;
+  padding-bottom: 10px;
+  align-items:center;
 }
 
 .padraoContainerPizzas {
   display: flex;
   flex-direction: column;
-  border: 1px;
   background-color: rgba(245, 245, 220, 0.699);
   justify-items:center;
   align-items: center;
-  border: 1px;
+  justify-content: space-evenly;
+  border: 2px;
   border-color: black;
-  border-style: dashed;
+  border-style: groove;
   padding-bottom: 1rem;
+  border-radius: 35px;
+  padding-bottom: 20px;
+}
 
+.imagensPizza{
+  border-radius: 35px;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+}
+
+a:hover{
+color: rgb(202, 28, 19);
 }
 
 .ajusteIngredientes {
