@@ -47,7 +47,7 @@ objetoPizzaDoce01 = {
     codigo: "04",
     tempoPreparo: 30,
     pizzaSalgada: false,
-    ingredientes: ["🍕 2 xícaras (de chá) de chocolate forneável ao leite", "🍕 1 disco de massa doce para pizza - pré assado", "🍕 1 colher de sopa de chocolate em pó", "🍕 1/2 xícara (de chá) de chocolate granulado (para povilhar)", "🍕 1/2 xícara (de chá) de cereja em calda (para decorar)"]
+    ingredientes: ["🍕 2 xícaras (de chá) de chocolate forneável ao leite", "🍕 1 disco de massa doce para pizza - pré assado", "🍕 1 colher de sopa de chocolate em pó", "🍕 1/2 xícara (de chá) de chocolate granulado (para polvilhar)", "🍕 1/2 xícara (de chá) de cereja em calda (para decorar)"]
 }
 //console.log(objetoPizzaDoce01)
 //console.table(objetoPizzaDoce01)
